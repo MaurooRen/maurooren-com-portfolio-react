@@ -1,0 +1,44 @@
+.Hero {
+}
+
+.Hero .container {
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: calc(100vh - 51px);
+}
+.Hero .container * {
+    display: inline-block;
+}
+.Hero .container > h1, h2  {
+    width: 100%;
+    font-size: 4rem;
+    font-weight: 100;
+    text-align: justify;
+    line-height: 5rem;
+}
+.Hero .container > h2  {
+    margin-top: 0.5rem;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+}
+.Hero .container > h1 i, h3 i {
+    font-style: normal;
+}
+.Hero .container > h1 strong {
+    font-weight: 400;
+}
+.Hero .container > h1 span:nth-child(1) {
+    margin-right: 1rem;
+    font-weight: 900;
+}
+.Hero .container > h1 span:nth-child(2) {
+    margin-right: 1rem;
+}
+.Hero .container > h1 span:nth-child(3) {
+    margin-right: 1rem;
+}
+.Hero .container > h1 span:nth-child(4) {
+    margin-right: 1rem;
+}

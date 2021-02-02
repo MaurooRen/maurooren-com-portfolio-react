@@ -1,0 +1,46 @@
+.Header {
+    border-bottom: 1px solid rgba(33, 38, 47, 0.2);
+    display: block;
+    height: 51px;
+    width: 100%;
+}
+.Header .container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Header .container > h1 {
+    color: #000;
+    padding: 14px 0 15px;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.Header .container > .mainNav {
+
+}
+
+.Header .container > .mainNav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+.Header .container > .mainNav ul li {
+    margin-left: 5px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    list-style: none;    
+}
+.Header .container > .mainNav ul li a {
+    color: #000;
+    padding: 10px;
+}
+.Header .container > .mainNav ul li a:hover {
+    color: rgba(25, 26, 23, 0.7);
+}
+.Header .container > .mainNav ul li a.active {
+    font-weight: 600;
+}
