@@ -1,9 +1,9 @@
 import React from 'react'
 import Emoji from '../components/Emoji';
 
-const SkillSet = ({ project }) => {
+const Project = ({ project, size }) => {
     return (
-        <div className='large'>
+        <div className={size}>
             <div className='information'>
                 <h4>{project.title}</h4>
                 <p>Wordpress + Logo Design</p>
@@ -19,4 +19,4 @@ const SkillSet = ({ project }) => {
     )
 }
 
-export default SkillSet;
+export default Project;
