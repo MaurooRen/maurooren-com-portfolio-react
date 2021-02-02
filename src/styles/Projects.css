@@ -39,6 +39,7 @@
 }
 .Projects .container > .large .information {
     width: 48%;
+    margin-right: 2%;
 }
 .Projects .container > .large .information h4, .small .information h4 {
     margin-bottom: 0.5rem;

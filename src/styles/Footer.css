@@ -1,0 +1,51 @@
+.Footer {
+    border-top: 1px solid rgba(33, 38, 47, 0.2);
+}
+
+.Footer .container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 7rem 0 5rem;
+    text-align: center;
+}
+
+.Footer .container > h3 {
+    display: block;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1rem;
+    margin-bottom: 3rem;
+}
+.Footer .container > p:nth-child(2) {
+    display: block;
+    margin: 0 auto 2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    width: 70%;
+}
+.Footer .container > .button-primary {
+    margin: 0 auto 3rem;
+    width: 230px;
+}
+
+.Footer .container > .icons-block .Icon {
+    color: #666;
+    font-size: 2rem;
+}
+
+
+.Footer .container > .howP:nth-child(5) {
+    margin-top: 3rem;
+    font-weight: 600;
+}
+
+.Footer .container > .howP {
+    margin-bottom: 0.2rem;
+    font-size: 1.2rem;
+}
+
+.Footer .container > .howP a {
+    color: #FF0049;
+    text-decoration: underline;
+}

@@ -5,6 +5,9 @@ import Header from './layout/Header';
 import Hero from './layout/Hero';
 import Skills from './layout/Skills';
 import Projects from './layout/Projects';
+import AboutMe from './layout/AboutMe';
+import WorkExperience from './layout/WorkExperience';
+import Footer from './layout/Footer';
 //weather api
 import { BASE_URL, API_KEY} from './constants'
 //styles
@@ -38,6 +41,9 @@ function App() {
       <Hero weather={weather} />
       <Skills />
       <Projects />
+      <AboutMe />
+      <WorkExperience />
+      <Footer />
     </div>
   );
 }

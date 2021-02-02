@@ -3,7 +3,7 @@ import '../styles/Button.css';
 
 const Button = ({ style, text, link }) => {
     return (
-        <a href={link} className={style}>{ text }</a>
+        <a href={link} className={style} rel='noreferrer' target='_blank'>{ text }</a>
     )
 }
 

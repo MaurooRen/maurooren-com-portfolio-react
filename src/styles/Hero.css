@@ -6,7 +6,8 @@
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    height: calc(100vh - 51px);
+    height: calc(100vh - 101px);
+    min-height: 400px;
 }
 .Hero .container * {
     display: inline-block;

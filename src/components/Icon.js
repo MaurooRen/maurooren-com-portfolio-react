@@ -3,9 +3,9 @@ import '../styles/Icon.css';
 //fontawesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const Icon = ({ size, icon, link, alt }) => {
+const Icon = ({ icon, link, alt }) => {
     return (
-        <a href={link} alt={alt} className="iconLink">
+        <a href={link} alt={alt} rel='noreferrer' target='_blank' className="iconLink">
             <FontAwesomeIcon icon={['fab', icon]} className="Icon" />
         </a>
     )
