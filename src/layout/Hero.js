@@ -3,7 +3,8 @@ import Button from '../components/Button';
 import Icon from '../components/Icon';
 import '../styles/Hero.css';
 
-const Hero = () => {
+const Hero = ({ weather }) => {
+    console.log(weather)
     return (
         <section className="Hero">
             <div className="container w-container">
