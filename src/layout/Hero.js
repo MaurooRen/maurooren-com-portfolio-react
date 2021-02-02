@@ -1,17 +1,25 @@
 import React from 'react'
 import Button from '../components/Button';
 import Icon from '../components/Icon';
+import Emoji from '../components/Emoji';
+import whetherCondition from '../constants/weather_conditions';
 import '../styles/Hero.css';
 
 const Hero = ({ weather }) => {
-    console.log(weather)
+    
+    //we use this function to chose the right emoji to display
+    const weatherEmoji = (code) => {
+        const emoji = whetherCondition.find(condition => condition.day === code)
+        return emoji
+    }
+
     return (
         <section className="Hero">
             <div className="container w-container">
                 <h1>
-                    <span>Hi! <i className="icon">👋</i> I'm Mauricio,</span>
+                    <span>Hi! <Emoji symbol="👋" label="waving hand"/> I'm Mauricio,</span>
                     <span>a Colombian <strong>web developer</strong></span>
-                    <span>currently enjoying the <i className="icon">🌞</i> in Florida, USA.</span>
+                    <span>currently enjoying the <Emoji symbol={weatherEmoji(weather).icon} label={weatherEmoji(weather).day}/> in Florida, USA.</span>
                 </h1>
                 <h2>I'm also a responsive web design aficionado, design-driven advocate, and an accessibility enthusiast.</h2>
                 <div className='icons-block'>

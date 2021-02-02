@@ -1,4 +1,5 @@
 import React from 'react'
+import Emoji from '../components/Emoji';
 
 const SkillSet = ({ project }) => {
     return (
@@ -7,7 +8,7 @@ const SkillSet = ({ project }) => {
                 <h4>{project.title}</h4>
                 <p>Wordpress + Logo Design</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                <a href={project.url}>Live Website 🚀</a>
+                <a href={project.url}>Live Website <Emoji symbol="🚀" label="rocket"/></a>
             </div>
             <div className='image'>
                 <a href={project.url}>

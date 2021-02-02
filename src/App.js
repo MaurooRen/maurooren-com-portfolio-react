@@ -17,17 +17,16 @@ library.add(fab)
 
 function App() {
 
-  const [weather, setWeather] = useState({})
+  const [weather, setWeather] = useState('Golf')
 
   //http://api.weatherapi.com/v1/current.json?key=<YOUR_API_KEY>&q=London
   const fetchWeather = () => {
-    axios.get(`${BASE_URL}/current.json?key=${API_KEY}&q=Miramar`)
+    axios.get(`${BASE_URL}/current.json?key=${API_KEY}&q=Miami`)
       .then(res => {
-        // console.log(res.data.current.condition.text)
-        setWeather(res.data)
+        setWeather(res.data.current.condition.text)
       })
       .catch(err => {
-        console.log('Ups!')
+        console.warn('Ups! We ran out of petitions')
       })
   }
 
