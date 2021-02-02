@@ -15,7 +15,7 @@ const mra = {
         },
     ],
     skills: {
-        frontEnd: ['React', 'REST API', 'Javascript', 'Git', 'HTML', 'CSS', 'Sass', 'Wordpress'],
+        development: ['React', 'REST API', 'Javascript', 'Git', 'HTML', 'CSS', 'Sass', 'Wordpress'],
         design: ['User Interface', 'Website', 'Adobe XD', 'Photoshop', 'CorelDraw', 'Prints'],
         others: ['Marketing', 'Social Media', 'SEO', 'Consulting', 'CMS'],
     },

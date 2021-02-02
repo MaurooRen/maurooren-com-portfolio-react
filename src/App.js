@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from './layout/Header';
 import Hero from './layout/Hero';
+import Skills from './layout/Skills';
+import Projects from './layout/Projects';
 //styles
 import './styles/App.css';
 //fontawesome
@@ -14,6 +16,8 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
+      <Skills />
+      <Projects />
     </div>
   );
 }
