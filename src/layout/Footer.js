@@ -25,8 +25,7 @@ const Footer = () => {
                 <p className="howP"><a rel='noreferrer' target='_blank' href="https://www.npmjs.com/package/normalize.css">Normalize.css</a> to reset browser CSS styles</p>
                 <p className="howP"><a rel='noreferrer' target='_blank' href="https://www.weatherapi.com/">WeatherAPI</a> use to show the current wheather in Miami</p>
                 <p className="howP">Illustration from <a rel='noreferrer' target='_blank' href="https://blush.design/">Blush</a></p>
-
-
+                <p className="howP">© 2021 All rights reserved. – <a rel='noreferrer' target='_blank' href="http://maurooren.com/">Designed & Coded by MaurooRen</a></p>
             </div>
         </footer>
     )

@@ -35,7 +35,7 @@
 }
 
 
-.Footer .container > .howP:nth-child(5) {
+.Footer .container > .howP:nth-child(5), .howP:nth-child(11) {
     margin-top: 3rem;
     font-weight: 600;
 }
