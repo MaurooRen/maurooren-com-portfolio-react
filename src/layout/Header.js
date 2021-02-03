@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <header className="Header">
             <div className="container w-container">
-                <h1>mra.</h1>
+                <h1>maurooren.</h1>
                 <nav className="mainNav">
                     <ul>
                         <li>
