@@ -19,8 +19,8 @@ const Footer = () => {
                     <Icon icon='linkedin-in' link='#' alt="LinkedIn" />
                 </div>
 
-                <p className="howP">How <a rel='noreferrer' target='_blank' href="https://github.com/MaurooRen/React-Personal-Portfolio">this portfolio</a> was build:</p>
-                <p className="howP">Designed in <a rel='noreferrer' target='_blank' href="https://dribbble.com/">Adobe XD</a></p>
+                <p className="howP">How <a rel='noreferrer' target='_blank' href="#">this portfolio</a> was build:</p>
+                <p className="howP">Designed in <a rel='noreferrer' target='_blank' href="https://dribbble.com/shots/15052182-Personal-Portfolio-Website">Adobe XD</a></p>
                 <p className="howP">React and CSS</p>
                 <p className="howP"><a rel='noreferrer' target='_blank' href="https://www.npmjs.com/package/normalize.css">Normalize.css</a> to reset browser CSS styles</p>
                 <p className="howP"><a rel='noreferrer' target='_blank' href="https://www.weatherapi.com/">WeatherAPI</a> use to show the current wheather in Miami</p>
