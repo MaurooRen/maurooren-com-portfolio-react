@@ -10,7 +10,7 @@ const WorkExperience = () => {
             <div className="container w-container">
                 <div>
                     <h3>Relevant Skills</h3>
-                    <Button style='button-secondary' text='Get my CV (LinkedIn)' link='https://www.linkedin.com/in/maurooren/' />
+                    <Button styleName='button-secondary' text='Get my CV (LinkedIn)' link='https://www.linkedin.com/in/maurooren/' />
                 </div>
                 <Work />
                 <Work />

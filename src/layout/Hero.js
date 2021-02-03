@@ -23,7 +23,7 @@ const Hero = ({ weather }) => {
                 </h1>
                 <h2>I'm also a responsive web design aficionado, design-driven advocate, and an accessibility enthusiast.</h2>
                 <div className='icons-block'>
-                    <Button style='button-primary' text='Say Hello!' link='mailto:maurooren@gmail.com?subject=e.g.%20Fan%20Letter%2C%20Work%20Inquiry' />
+                    <Button styleName='button-primary' text='Say Hello!' link='mailto:maurooren@gmail.com?subject=e.g.%20Fan%20Letter%2C%20Work%20Inquiry' />
                     <Icon size='large' icon='github' link='#' alt="GitHub" />
                     <Icon size='large' icon='codepen' link='#' alt="CodePen" />
                     <Icon size='large' icon='medium-m' link='#' alt="Medium" />

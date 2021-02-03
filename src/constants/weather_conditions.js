@@ -1,4 +1,4 @@
-export default [
+const whetherCondition = [
 	{
 		"day" : "Golf",
 		"icon" : '⛳'
@@ -195,4 +195,6 @@ export default [
 		"day" : "Moderate or heavy snow with thunder",
 		"icon" : '⛄'
 	}
-]
+];
+
+export default whetherCondition;

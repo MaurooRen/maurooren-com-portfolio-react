@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="container w-container">
                 <h3>Let's work together</h3>
                 <p>If you are looking for a web developer or you have a website or mobile app idea in mind or you need some advice about web design, feel free to contact me.</p>
-                <Button style='button-primary' text='maurooren@gmail.com' link='mailto:maurooren@gmail.com?subject=e.g.%20Fan%20Letter%2C%20Work%20Inquiry' />
+                <Button styleName='button-primary' text='maurooren@gmail.com' link='mailto:maurooren@gmail.com?subject=e.g.%20Fan%20Letter%2C%20Work%20Inquiry' />
 
                 <div className='icons-block'>
                     <Icon icon='github' link='#' alt="GitHub" />
