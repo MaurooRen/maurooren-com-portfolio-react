@@ -8,6 +8,10 @@ const whetherCondition = [
 		"icon" : '🌞'
 	},
 	{
+		"day" : "Clear",
+		"icon" : '🌚'
+	},
+	{
 		"day" : "Partly cloudy",
 		"icon" : '⛅'
 	},

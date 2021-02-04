@@ -8,10 +8,12 @@ import '../styles/Hero.css';
 const Hero = ({ weather }) => {
     
     //we use this function to chose the right emoji to display
-    const weatherEmoji = (code) => {
-        const emoji = whetherCondition.find(condition => condition.day === code)
+    const weatherEmoji = (weatherCode) => {
+        const emoji = whetherCondition.find(condition => condition.day === weatherCode)
         return emoji
     }
+
+    console.log('I am a Heroe', weatherEmoji(weather)) //Debbuging for wrong weatherCode
 
     return (
         <section className="Hero">

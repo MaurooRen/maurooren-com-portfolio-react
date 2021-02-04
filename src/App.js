@@ -25,10 +25,12 @@ function App() {
   const fetchWeather = () => {
     axios.get(`${BASE_URL}/current.json?key=${API_KEY}&q=Miami`)
       .then(res => {
+        console.info('Success')
         setWeather(res.data.current.condition.text)
       })
       .catch(err => {
         console.warn('Ups! We ran out of petitions')
+        
       })
   }
 
