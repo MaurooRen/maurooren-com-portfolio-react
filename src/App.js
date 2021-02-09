@@ -8,7 +8,7 @@ import Projects from './layout/Projects';
 import AboutMe from './layout/AboutMe';
 import Footer from './layout/Footer';
 //weather api
-import { BASE_URL, API_KEY} from './constants'
+import { BASE_URL, API_KEY} from './constants/weatherApi'
 //fontawesome
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
