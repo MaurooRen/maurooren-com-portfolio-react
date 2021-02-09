@@ -2,7 +2,7 @@ import React from 'react'
 
 const SkillSet = ({ title, set }) => {
     return (
-        <div>
+        <>
             <h4>{ title }</h4>
             <ul>
             {
@@ -11,7 +11,7 @@ const SkillSet = ({ title, set }) => {
                 })
             }
             </ul>
-        </div>
+        </>
     )
 }
 

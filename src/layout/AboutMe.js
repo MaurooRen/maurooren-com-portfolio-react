@@ -1,11 +1,43 @@
 import React from 'react'
-import '../styles/AboutMe.css';
+import styled from 'styled-components'
 import illustration from '../assets/illustrations/clumsy.svg';
 
-const AboutMe = () => {
+const AboutSection = styled.section`
+    background-color: #F9F9F9;
 
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 7rem 0 5rem;
+    }
+    .container div {
+        width: 60%;
+    }
+    .container img {
+        width: 40%;
+    }
+    .container div h3 {
+        width: 100%;
+        font-size: 4rem;
+        font-weight: 900;
+        text-align: left;
+        line-height: 5rem;
+        margin-bottom: 3rem;
+    }
+    .container div p {
+        color: #888;
+        margin-bottom: 2rem;
+        font-size: 1.6rem;
+        font-weight: 400;
+        text-align: left;
+    }
+`;
+
+const AboutMe = () => {
     return (
-        <section className="AboutMe">
+        <AboutSection>
             <div className="container w-container">
                 <div>
                     <h3>Intersection of design, business and marketing</h3>
@@ -15,7 +47,7 @@ const AboutMe = () => {
                 </div>
                 <img src={illustration} alt="Illustration of a person floating around papers sheets" />
             </div>
-        </section>
+        </AboutSection>
     )
 }
 

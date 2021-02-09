@@ -43,7 +43,7 @@ function App() {
       <Skills />
       <Projects />
       <AboutMe />
-      <WorkExperience />
+      {/* <WorkExperience /> */}
       <Footer />
     </div>
   );
