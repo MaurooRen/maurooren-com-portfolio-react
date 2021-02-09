@@ -86,6 +86,190 @@ const ProjectsStyled = styled.section`
     .container > .large .image, .small .image {
         width: 100%;
     }
+
+
+
+    // X-Small devices (portrait phones, less than 576px)
+    @media (min-width: 1px) {
+        /* background-color: mediumpurple; */
+
+        .container h3 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+        .container p {
+            font-size: 1.4rem;
+        }
+
+
+
+        .container > .large, .small {
+            align-items: flex-start;
+            align-content: flex-start;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .container > .large .information, .small .information {
+            display: block;
+            order: 2;
+            margin-right: 0px;
+            width: 100%;
+        }
+        .container > .large .image, .small .image {
+            display: block;
+            order: 1;
+            width: 100%;
+        }
+        .container .small {
+            margin-bottom: 7rem;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .container .small:nth-child(6) {
+            margin-bottom: 0;
+        }
+        .container .small:nth-child(7) {
+            display: none;
+        }
+
+
+
+
+
+    }
+
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) {
+        /* background-color: green; */
+
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) {
+        background-color: yellow;
+
+        .container h3 {
+            font-size: 2.8rem;
+            margin-bottom: 2rem;
+        }
+
+
+
+        .container .large, .container .small {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        }
+
+        .container .large .information {
+            display: inline;
+            order: 1;
+            width: 48%;
+            margin-right: 2%;
+        }
+        .container .large .image {
+            display: inline;
+            order: 2;
+            width: 50%;
+        }
+        .container .small {
+            margin-bottom: 7rem;
+            width: 100%;
+        }
+        .container .small .image {
+            display: inline;
+            order: 2;
+            width: 50%;
+        }
+        .container .small .information {
+            display: inline;
+            order: 1;
+            margin-right: 2%;
+            width: 48%;
+        }
+        .container .small:nth-child(6) {
+            margin-bottom: 0;
+        }
+        .container .small:nth-child(7) {
+            display: none;
+        }
+
+
+
+
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) {
+        background-color: blue;
+        .container h3 {
+            font-size: 3.8rem;
+            margin-bottom: 2.5rem;
+        }
+
+
+
+
+        .container .small {
+            flex-direction: column;
+            width: 32%;
+        }
+        .container .small .image {
+            display: block;
+            order: 1;
+            width: 100%;
+        }
+        .container .small .information {
+            display: block;
+            order: 2;
+            width: 100%;
+        }
+        .container .small:nth-child(7) {
+            display: inline;
+        }
+        .container .small:nth-child(7) .image {
+            display: block;
+            order: 1;
+        }
+        .container .small:nth-child(7) .information {
+            display: block;
+            order: 2;
+            background-color: pink;
+        }
+
+
+
+
+
+
+
+    }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) {
+        background-color: red;
+        .container h3 {
+            font-size: 4rem;
+            margin-bottom: 3rem;
+        }
+        .container p {
+            font-size: 1.6rem;
+        }
+
+    }
+
+    // XX-Large devices (larger desktops, 1400px and up)
+    @media (min-width: 1400px) {
+        background-color: pink;
+    }
+
+
+
+
+
 `;
 
 const Projects = () => {
