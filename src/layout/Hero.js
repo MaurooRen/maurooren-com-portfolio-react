@@ -14,20 +14,12 @@ const HeroStyled = styled.section`
         height: calc(100vh - 101px);
         min-height: 400px;
     }
-    .container * {
-        display: inline-block;
-    }
     .container > h1, h2  {
         width: 100%;
         font-size: 4rem;
         font-weight: 100;
         text-align: justify;
         line-height: 5rem;
-    }
-    .container h2  {
-        margin-top: 0.5rem;
-        font-size: 2.5rem;
-        line-height: 3.5rem;
     }
     .container > h1 i, h3 i {
         font-style: normal;
@@ -55,6 +47,95 @@ const HeroStyled = styled.section`
         flex-flow: row nowrap;
         justify-content: flex-start;
         width: 100%;
+    }
+
+    // X-Small devices (portrait phones, less than 576px)
+    @media (min-width: 1px) {
+        .container * {
+            display: inline;
+        }
+        .container > h1, h2  {
+            font-size: 2.5rem;
+            text-align: left;
+            line-height: 3.5rem;
+        }
+        .container h2  {
+            margin-top: 0.5rem;
+            font-size: 1.8rem;
+            line-height: 3rem;
+        }  
+        .container .icons-block a:nth-child(1) {
+            display: none;
+        }
+        .container .icons-block > a:nth-child(2) svg, a:nth-child(3) svg, a:nth-child(4) svg, a:nth-child(5) svg, a:nth-child(6) svg {
+            padding-left: 0 !important;
+            padding-right: 25px !important;
+        }
+    }
+
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) {
+        .container > h1, h2  {
+            font-size: 2.8rem;
+            line-height: 3.5rem;
+        }
+        .container h2  {
+            font-size: 2rem;
+            line-height: 3rem;
+        }
+
+        .container .icons-block a:nth-child(1) {
+            display: inline-block;
+        }
+        .container .icons-block > a:nth-child(2) svg, a:nth-child(3) svg, a:nth-child(4) svg, a:nth-child(5) svg, a:nth-child(6) svg {
+            padding-left: 25px !important;
+            padding-right: 0 !important;
+        }
+        
+    }
+
+        // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) {
+        .container * {
+            display: inline-block;
+        }
+        .container > h1, h2  {
+            font-size: 2.8rem;
+            line-height: 4rem;
+        }
+        .container h2  {
+            margin-top: 0.5rem;
+            font-size: 2rem;
+        }    
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) {
+        .container > h1, h2  {
+            font-size: 3.8rem;
+            text-align: justify;
+            line-height: 4.5rem;
+        }
+        .container h2  {
+            margin-top: 0.5rem;
+            font-size: 2.2rem;
+        }
+    }        
+
+    // X-Large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) {
+        .container > h1, h2  {
+            font-size: 4rem;
+            line-height: 5rem;
+        }
+        .container h2  {
+            font-size: 2.5rem;
+            line-height: 3.5rem;
+        }
+    }
+
+    // XX-Large devices (larger desktops, 1400px and up)
+    @media (min-width: 1400px) {
     }
 `;
 

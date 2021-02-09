@@ -22,7 +22,7 @@ const ButtonLink = styled.a`
     }
 `;
 
-const Button = ({ styleName, text, link, primary }) => {
+const Button = ({ text, link, primary }) => {
     console.log(primary)
     return (
         <ButtonLink href={link} rel='noreferrer' target='_blank'>{ text }</ButtonLink>
