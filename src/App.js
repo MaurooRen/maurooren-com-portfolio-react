@@ -6,12 +6,9 @@ import Hero from './layout/Hero';
 import Skills from './layout/Skills';
 import Projects from './layout/Projects';
 import AboutMe from './layout/AboutMe';
-import WorkExperience from './layout/WorkExperience';
 import Footer from './layout/Footer';
 //weather api
 import { BASE_URL, API_KEY} from './constants'
-//styles
-import './styles/App.css';
 //fontawesome
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -43,7 +40,6 @@ function App() {
       <Skills />
       <Projects />
       <AboutMe />
-      {/* <WorkExperience /> */}
       <Footer />
     </div>
   );
