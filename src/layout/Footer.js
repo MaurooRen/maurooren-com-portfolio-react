@@ -17,7 +17,7 @@ const FooterStyled = styled.footer`
         display: block;
         font-size: 4rem;
         font-weight: 900;
-        line-height: 1rem;
+        line-height: 4rem;
         margin-bottom: 3rem;
     }
     .container p:nth-child(2) {
@@ -25,7 +25,7 @@ const FooterStyled = styled.footer`
         margin: 0 auto 2rem;
         font-size: 1.6rem;
         font-weight: 600;
-        width: 70%;
+        width: 100%;
     }
     .container .icons-block .Icon {
         color: #666;
