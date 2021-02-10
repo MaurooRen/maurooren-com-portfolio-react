@@ -175,6 +175,7 @@ const ProjectsStyled = styled.section`
     }
 
     // Large devices (desktops, 992px and up)
+    
     @media (min-width: 992px) {
         .container h3 {
             font-size: 3.8rem;
