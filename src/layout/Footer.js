@@ -58,7 +58,7 @@ const Footer = () => {
                     <Icon size='large' icon='github' link='https://github.com/maurooren' alt="GitHub" />
                     <Icon size='large' icon='codepen' link='https://codepen.io/maurooren' alt="CodePen" />
                     <Icon size='large' icon='dribbble' link='https://dribbble.com/maurooren' alt="Dribbble" />
-                    <Icon size='large' icon='medium-m' link='https://medium.com/' alt="Medium" />
+                    <Icon size='large' icon='medium-m' link='https://maurooren.medium.com/' alt="Medium" />
                     <Icon size='large' icon='linkedin-in' link='https://www.linkedin.com/in/maurooren/' alt="LinkedIn" />
                 </div>
 

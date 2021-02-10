@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Navbar from '../components/Navbar';
 
 const HeaderStyled = styled.header`
     border-bottom: 1px solid rgba(33, 38, 47, 0.2);
@@ -43,6 +44,9 @@ const HeaderStyled = styled.header`
     .container .mainNav ul li a.active {
         font-weight: 600;
     }
+
+
+
 `;
 
 const Header = () => {
@@ -53,7 +57,8 @@ const Header = () => {
         <HeaderStyled>
             <div className="container w-container">
                 <h1>maurooren.</h1>
-                <nav className="mainNav">
+                <Navbar></Navbar>
+                {/* <nav className="mainNav">
                     <ul>
                         <li>
                             <a href={url} className="active">Hi <span className="icon">👋</span></a>
@@ -68,7 +73,7 @@ const Header = () => {
                             <a href={url}>Email me</a>
                         </li>
                     </ul>
-                </nav>
+                </nav> */}
             </div>
         </HeaderStyled>
     )
