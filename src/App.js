@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import axios from 'axios';
 //layouts
-import Header from './layout/Header';
+// import Header from './layout/Header';
 import Hero from './layout/Hero';
 import Skills from './layout/Skills';
 import Projects from './layout/Projects';
