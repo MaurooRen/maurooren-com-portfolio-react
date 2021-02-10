@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
       <Hero weather={weather} />
       <Skills />
       <Projects />

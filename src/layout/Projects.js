@@ -230,11 +230,11 @@ const Projects = () => {
             <div className="container w-container">
                 <h3>Recent Work</h3>
                 <p>Probably the section you are most interested in. Have fun exploring some of my recent projects and maybe come back afterwards?</p>
-                <Project project={{ title: 'GrupoMaris', url: 'https://www.grupomaris.es/' }} size='large' />
-                <Project project={{ title: 'GrupoMaris', url: 'https://www.grupomaris.es/' }} size='large' />
-                <Project project={{ title: 'GrupoMaris', url: 'https://www.grupomaris.es/' }} size='small' />
-                <Project project={{ title: 'GrupoMaris', url: 'https://www.grupomaris.es/' }} size='small' />
-                <Project project={{ title: 'GrupoMaris', url: 'https://www.grupomaris.es/' }} size='small' />
+                <Project project={{ title: 'GrupoMaris', url: 'https://www.grupomaris.es/', stack: 'Wordpress + Logo Design', description: 'Soy una description medio larga', image: '/assets/images/dynacars.png' }} size='large' />
+                <Project project={{ title: 'GrupoMaris', url: 'https://www.grupomaris.es/', stack: 'Wordpress + Logo Design', description: 'Soy una description medio larga', image: '/assets/images/dynacars.png' }} size='large' />
+                <Project project={{ title: 'GrupoMaris', url: 'https://www.grupomaris.es/', stack: 'Wordpress + Logo Design', description: 'Soy una description medio larga', image: '/assets/images/dynacars.png' }} size='small' />
+                <Project project={{ title: 'GrupoMaris', url: 'https://www.grupomaris.es/', stack: 'Wordpress + Logo Design', description: 'Soy una description medio larga', image: '/assets/images/dynacars.png' }} size='small' />
+                <Project project={{ title: 'GrupoMaris', url: 'https://www.grupomaris.es/', stack: 'Wordpress + Logo Design', description: 'Soy una description medio larga', image: '/assets/images/dynacars.png' }} size='small' />
             </div>
         </ProjectsStyled>
     )
