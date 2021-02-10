@@ -182,6 +182,7 @@ const ProjectsStyled = styled.section`
         }
         .container .small {
             flex-direction: column;
+            justify-content: flex-start;
             width: 32%;
         }
         .container .small .image {
@@ -230,11 +231,11 @@ const Projects = () => {
             <div className="container w-container">
                 <h3>Recent Work</h3>
                 <p>Probably the section you are most interested in. Have fun exploring some of my recent projects and maybe come back afterwards?</p>
-                <Project project={{ title: 'GrupoMaris', url: 'https://www.grupomaris.es/', stack: 'Wordpress + Logo Design', description: 'Soy una description medio larga', image: '/assets/images/dynacars.png' }} size='large' />
-                <Project project={{ title: 'GrupoMaris', url: 'https://www.grupomaris.es/', stack: 'Wordpress + Logo Design', description: 'Soy una description medio larga', image: '/assets/images/dynacars.png' }} size='large' />
-                <Project project={{ title: 'GrupoMaris', url: 'https://www.grupomaris.es/', stack: 'Wordpress + Logo Design', description: 'Soy una description medio larga', image: '/assets/images/dynacars.png' }} size='small' />
-                <Project project={{ title: 'GrupoMaris', url: 'https://www.grupomaris.es/', stack: 'Wordpress + Logo Design', description: 'Soy una description medio larga', image: '/assets/images/dynacars.png' }} size='small' />
-                <Project project={{ title: 'GrupoMaris', url: 'https://www.grupomaris.es/', stack: 'Wordpress + Logo Design', description: 'Soy una description medio larga', image: '/assets/images/dynacars.png' }} size='small' />
+                <Project project={{ title: 'NASA OPEN APIs', url: 'https://www.grupomaris.es/', stack: 'UI + React + Styled-Components + CSS', description: "The NASA OPEN APIs replicated the functionality of one of NASA's most popular websites. The user can view a smooth scrolling effect created with stylish components, click on the item card component and view a video or photo of the day with more relevant information", image: '/images/nasaapi.jpg' }} size='large' />
+                <Project project={{ title: 'GrupoMaris', url: 'https://www.grupomaris.es/', stack: 'Wordpress + Logo Design', description: 'Soy una description medio larga', image: '/images/dynacars.png' }} size='large' />
+                <Project project={{ title: 'Personal Portfolio', url: 'https://www.maurooren.com/', stack: 'UI + React + WeatherAPI + Styled-Components', description: 'The UI for this website was created in Adobe XD and later developed in React. I used WeatherAPI to display real-time weather in Miami, FL (Emoji in intro) and Axios to the API call', image: '/images/portfolio.png' }} size='small' />
+                <Project project={{ title: 'GrupoMaris', url: 'https://www.grupomaris.es/', stack: 'Wordpress', description: 'Implement website to meet the requirements of allowing the Dealership itself to update the listing of vehicles based on the existing inventory', image: '/images/dynacars.png' }} size='small' />
+                <Project project={{ title: 'GrupoMaris', url: 'https://www.grupomaris.es/', stack: 'Wordpress + Logo Design', description: 'Soy una description medio larga', image: '/images/dynacars.png' }} size='small' />
             </div>
         </ProjectsStyled>
     )

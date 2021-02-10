@@ -14,7 +14,7 @@ const Project = ({ project, size }) => {
             </div>
             <div className='image'>
                 <a href={project.url}>
-                    <img src={project.image} alt={project.title}  />
+                    <img src={process.env.PUBLIC_URL + project.image} alt={project.title}  />
                 </a>
             </div>
         </div>
