@@ -121,11 +121,8 @@ const ProjectsStyled = styled.section`
             justify-content: space-between;
             width: 100%;
         }
-        .container .small:nth-child(6) {
-            margin-bottom: 0;
-        }
         .container .small:nth-child(7) {
-            display: none;
+            margin-bottom: 0;
         }
     }
 
@@ -156,6 +153,7 @@ const ProjectsStyled = styled.section`
             display: inline;
             order: 2;
             width: 50%;
+            transition: all 0.5s;
         }
         .container .small {
             margin-bottom: 7rem;
@@ -165,6 +163,7 @@ const ProjectsStyled = styled.section`
             display: inline;
             order: 2;
             width: 50%;
+            transition: all 0.5s;
         }
         .container .small .information {
             display: inline;
@@ -172,6 +171,11 @@ const ProjectsStyled = styled.section`
             margin-right: 2%;
             width: 48%;
         }
+
+        .container .image:hover {
+            transform: scale(1.03);
+        }
+
     }
 
     // Large devices (desktops, 992px and up)
@@ -232,11 +236,11 @@ const Projects = () => {
             <div className="container w-container">
                 <h3>Recent Work</h3>
                 <p>Probably the section you are most interested in. Have fun exploring some of my recent projects and maybe come back afterwards?</p>
-                <Project project={{ title: 'Netflix Clone', url: 'https://www.grupomaris.es/', stack: 'Wordpress + Logo Design', description: 'Soy una description medio larga', image: '/images/netflix.jpg' }} size='large' />
-                <Project project={{ title: 'NASA OPEN APIs', url: 'https://www.grupomaris.es/', stack: 'UI + React + Styled-Components + CSS', description: "The NASA OPEN APIs replicated the functionality of one of NASA's most popular websites. The user can view a smooth scrolling effect created with stylish components, click on the item card component and view a video or photo of the day with more relevant information", image: '/images/nasaapi.png' }} size='large' />
-                <Project project={{ title: 'CryptApp', url: 'https://www.grupomaris.es/', stack: 'Wordpress + Logo Design', description: 'Soy una description medio larga', image: '/images/crypto.jpg' }} size='small' />
-                <Project project={{ title: 'GrupoMaris', url: 'https://www.grupomaris.es/', stack: 'Wordpress', description: 'Implement website to meet the requirements of allowing the Dealership itself to update the listing of vehicles based on the existing inventory', image: '/images/dynacars.png' }} size='small' />
-                <Project project={{ title: 'Personal Portfolio', url: 'https://www.maurooren.com/', stack: 'UI + React + WeatherAPI + Styled-Components', description: 'The UI for this website was created in Adobe XD and later developed in React. I used WeatherAPI to display real-time weather in Miami, FL (Emoji in intro) and Axios to the API call', image: '/images/portfolio.png' }} size='small' />
+                <Project project={{ title: 'Netflix Clone App', url: 'https://netflix-clone-react-4307e.web.app/', stack: 'React + TMDb API + CSS', description: 'Netflix Clone implements different endpoints of TMDb API to display individual movie sections. Users can click over the movie components and see the trailer found on YouTube.', image: '/images/netflix.jpg' }} size='large' linkWebsite />
+                <Project project={{ title: 'NASA OPEN APIs', url: 'https://nasa-open-api.herokuapp.com/', stack: 'UI + React + Styled-Components', description: "An App that replicated one of NASA's most popular websites. The users can see a photo or video of the day plus the most relevant information about, information consumed from NASA's API.", image: '/images/nasaapi.png' }} size='large' linkWebsite />
+                <Project project={{ title: 'CryptApp', url: 'https://react-api-crypto-tracker.herokuapp.com/', stack: 'React + CoinGecko API + CSS', description: 'Soy una description medio larga', image: '/images/crypto.jpg' }} size='small' linkWebsite />
+                <Project project={{ title: 'GrupoMaris', url: 'https://www.grupomaris.es/', stack: 'Wordpress', description: 'Implement website to meet the requirements of allowing the Dealership itself to update the listing of vehicles based on the existing inventory', image: '/images/dynacars.png' }} size='small' linkWebsite />
+                <Project project={{ title: 'Personal Portfolio', url: 'https://github.com/MaurooRen/maurooren-com-portfolio-react', stack: 'React + WeatherAPI + Styled-Components', description: 'The UI created in Adobe XD. Weather API was implemented to display the weather in Miami, FL (Emoji in the intro)', image: '/images/portfolio.png' }} size='small' linkGithub />
             </div>
         </ProjectsStyled>
     )
