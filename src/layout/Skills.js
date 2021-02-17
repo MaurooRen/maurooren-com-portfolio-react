@@ -113,7 +113,7 @@ const Skills = () => {
         <SkillsSection>
             <div className="container w-container">
                 <h3>Relevant Skills</h3>
-                <p>Intersection of design, programming and marketing.</p>
+                <p>Intersection of design and programming</p>
                 <SkillSet title='Development' set={['React', 'API', 'JS', 'Git', 'Styled-Components', 'HTML', 'CSS', 'Wordpress']} />
                 <SkillSet title='Design' set={['User Interface', 'Website', 'Adobe XD', 'Photoshop', 'CorelDraw', 'Prints']} />
                 <SkillSet title='Others' set={['Marketing', 'Social Media', 'SEO', 'Consulting', 'CMS']} />
