@@ -4,7 +4,7 @@ import Button from '../components/Button'
 import Icon from '../components/Icon'
 
 const FooterStyled = styled.footer`
-    border-top: 1px solid rgba(33, 38, 47, 0.2);
+    border-top: 1px solid rgba(33,38,47,0.2);
 
     .container {
         display: flex;

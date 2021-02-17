@@ -235,7 +235,7 @@ const Projects = () => {
         <ProjectsStyled className='Projects'>
             <div className="container w-container">
                 <h3>Recent Work</h3>
-                <p>Probably the section you are most interested in. Have fun exploring some of my recent projects and maybe come back afterwards?</p>
+                <p>Probably the section you are most interested in. Have fun exploring some of my recent projects.</p>
                 <Project project={{ title: 'Netflix Clone App', url: 'https://netflix-clone-react-4307e.web.app/', stack: 'React + TMDb API + CSS', description: 'Netflix Clone implements different endpoints of TMDb API to display individual movie sections. Users can click over the movie components and see the trailer found on YouTube.', image: '/images/netflix.jpg' }} size='large' linkWebsite />
                 <Project project={{ title: 'NASA OPEN APIs', url: 'https://nasa-open-api.herokuapp.com/', stack: 'UI + React + Styled-Components', description: "An App that replicated one of NASA's most popular websites. The users can see a photo or video of the day plus the most relevant information about, information consumed from NASA's API.", image: '/images/nasaapi.png' }} size='large' linkWebsite />
                 <Project project={{ title: 'CryptApp', url: 'https://react-api-crypto-tracker.herokuapp.com/', stack: 'React + CoinGecko API + CSS', description: 'Soy una description medio larga', image: '/images/crypto.jpg' }} size='small' linkWebsite />

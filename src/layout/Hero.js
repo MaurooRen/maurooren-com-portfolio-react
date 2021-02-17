@@ -29,7 +29,7 @@ const HeroStyled = styled.section`
     }
     .container h1 span:nth-child(1) {
         margin-right: 1rem;
-        font-weight: 900;
+        font-weight: 600;
     }
     .container h1 span:nth-child(2) {
         margin-right: 1rem;
