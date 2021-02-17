@@ -79,6 +79,16 @@ const HeroStyled = styled.section`
             font-size: 2.8rem;
             line-height: 3.5rem;
         }
+        .container h1 span {
+            display: inline-block;
+        }
+        .container h1 span:nth-child(2) {
+            display: inline;
+        }
+        .container h1 span strong {
+            display: inline;
+        }
+
         .container h2  {
             font-size: 2rem;
             line-height: 3rem;
@@ -154,17 +164,17 @@ const Hero = ({ weather }) => {
             <div className="container w-container">
                 <h1>
                     <span>Hi! <Emoji symbol="👋" label="waving hand"/> I'm Mauricio,</span>
-                    <span>a Colombian <strong>web developer</strong></span>
+                    <span>a Colombian <strong>front end web developer</strong></span>
                     <span>currently enjoying the <Emoji symbol={weatherEmoji(weather).icon} label={weatherEmoji(weather).day}/> in Florida, USA.</span>
                 </h1>
                 <h2>I'm also a responsive web design aficionado, design-driven advocate, and an accessibility enthusiast.</h2>
                 <div className='icons-block'>
                     <Button text='Say Hello!' link='mailto:maurooren@gmail.com?subject=e.g.%20Fan%20Letter%2C%20Work%20Inquiry' primary="true" />
-                    <Icon size='large' icon='github' link='https://github.com/maurooren' alt="GitHub" />
-                    <Icon size='large' icon='codepen' link='https://codepen.io/maurooren' alt="CodePen" />
-                    <Icon size='large' icon='dribbble' link='https://dribbble.com/maurooren' alt="Dribbble" />
-                    <Icon size='large' icon='medium-m' link='https://maurooren.medium.com/' alt="Medium" />
                     <Icon size='large' icon='linkedin-in' link='https://www.linkedin.com/in/maurooren/' alt="LinkedIn" />
+                    <Icon size='large' icon='github' link='https://github.com/maurooren' alt="GitHub" />
+                    {/* <Icon size='large' icon='codepen' link='https://codepen.io/maurooren' alt="CodePen" /> */}
+                    <Icon size='large' icon='dribbble' link='https://dribbble.com/maurooren' alt="Dribbble" />
+                    {/* <Icon size='large' icon='medium-m' link='https://maurooren.medium.com/' alt="Medium" /> */}
                 </div>
             </div>
         </HeroStyled>

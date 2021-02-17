@@ -30,9 +30,12 @@ const FooterStyled = styled.footer`
     .container .icons-block .Icon {
         color: #666;
         margin-top: 3rem;
-        font-size: 2rem;
     }
-    .container .howP:nth-child(5), .howP:nth-child(11) {
+    .container .howP:nth-child(5) {
+        padding-top: 3rem;
+        border-top: 1px dashed #CCC;
+    }
+    .container .howP:nth-child(5), .howP:nth-child(9) {
         margin-top: 3rem;
         font-weight: 600;
     }
@@ -55,20 +58,16 @@ const Footer = () => {
                 <Button styleName='button-primary' text='maurooren@gmail.com' link='mailto:maurooren@gmail.com?subject=e.g.%20Fan%20Letter%2C%20Work%20Inquiry' />
 
                 <div className='icons-block'>
-                    <Icon size='large' icon='github' link='https://github.com/maurooren' alt="GitHub" />
-                    <Icon size='large' icon='codepen' link='https://codepen.io/maurooren' alt="CodePen" />
-                    <Icon size='large' icon='dribbble' link='https://dribbble.com/maurooren' alt="Dribbble" />
-                    <Icon size='large' icon='medium-m' link='https://maurooren.medium.com/' alt="Medium" />
                     <Icon size='large' icon='linkedin-in' link='https://www.linkedin.com/in/maurooren/' alt="LinkedIn" />
+                    <Icon size='large' icon='github' link='https://github.com/maurooren' alt="GitHub" />
+                    <Icon size='large' icon='dribbble' link='https://dribbble.com/maurooren' alt="Dribbble" />
                 </div>
 
                 <p className="howP">How this portfolio was build:</p>
                 <p className="howP">Designed in <a rel='noreferrer' target='_blank' href="https://dribbble.com/shots/15052182-Personal-Portfolio-Website">Adobe XD</a></p>
-                <p className="howP">React and CSS</p>
-                <p className="howP"><a rel='noreferrer' target='_blank' href="https://www.npmjs.com/package/normalize.css">Normalize.css</a> to reset browser CSS styles</p>
                 <p className="howP"><a rel='noreferrer' target='_blank' href="https://www.weatherapi.com/">WeatherAPI</a> use to show the current wheather in Miami</p>
                 <p className="howP">Illustration from <a rel='noreferrer' target='_blank' href="https://blush.design/">Blush</a></p>
-                <p className="howP">© 2021 All rights reserved. – <a rel='noreferrer' target='_blank' href="http://maurooren.com/">Designed & Coded by MaurooRen</a></p>
+                <p className="howP">© 2021 All rights reserved. – <a rel='noreferrer' target='_blank' href="https://github.com/maurooren">Designed & Coded by MaurooRen</a></p>
             </div>
         </FooterStyled>
     )
